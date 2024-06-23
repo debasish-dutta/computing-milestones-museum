@@ -77,3 +77,16 @@ footer {
     transform: scale(1.05);
   }
   
+/* COLLECTIONS */
+.collection-container {
+  /* display: flex; */
+  /* flex-direction: column; */
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.collection-section {
+  /* border: 1px solid #ccc; */
+  padding: 1rem;
+  border-radius: 8px;
+}

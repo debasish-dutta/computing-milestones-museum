@@ -1,0 +1,31 @@
+<div class="group relative block">
+  <div class="relative h-64 sm:h-96 rounded-lg p-8 md:p-12">
+    <img
+      src="{img1}"
+      alt="{headr}"
+      class="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0 rounded-lg"
+    />
+
+    <img
+      src="{img2}"
+      alt="{headr}"
+      class="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100 rounded-lg"
+    />
+  </div>
+
+  <div
+    class="absolute inset-0 flex flex-col items-start justify-end p-8 md:p-12"
+  >
+    <h3 class="text-xl font-medium text-white">{headr}</h3>
+
+    <p class="mt-1.5 text-pretty text-xs text-white">{details}</p>
+
+    <a href="{link}" class="">
+      <span
+        class="mt-3 inline-block bg-blue-800 px-2 py-1 text-xs font-medium uppercase tracking-wide text-white"
+      >
+        See More
+      </span>
+    </a>
+  </div>
+</div>
